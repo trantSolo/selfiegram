@@ -7,14 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84C7C66F2E3FF696FBF17B43 /* Pods_Selfiegram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3C9CA3EA4D0F207A8FEAE0 /* Pods_Selfiegram.framework */; };
+		8600C2AA1F16CE48009FD02E /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8600C2A91F16CE48009FD02E /* CommentViewController.swift */; };
+		8600C2AC1F16D79A009FD02E /* TrimWhiteSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8600C2AB1F16D79A009FD02E /* TrimWhiteSpace.swift */; };
+		8615BFEC1F43392C0028EA91 /* CameraImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8615BFEB1F43392C0028EA91 /* CameraImageData.swift */; };
+		861DBE981F917BD40069B145 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 861DBE971F917BD40069B145 /* Settings.storyboard */; };
+		861DBE9A1F917DAA0069B145 /* SplitVIewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861DBE991F917DAA0069B145 /* SplitVIewTableViewController.swift */; };
+		86252BDA1F8D8239003F9E0A /* FIlterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86252BD91F8D8239003F9E0A /* FIlterViewController.swift */; };
+		86324CAC1F1EEE650085DDDF /* NetworkDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86324CAB1F1EEE650085DDDF /* NetworkDataManager.swift */; };
 		86652F691F0A60AD0000F685 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86652F681F0A60AD0000F685 /* AppDelegate.swift */; };
-		86652F6B1F0A60AD0000F685 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86652F6A1F0A60AD0000F685 /* ViewController.swift */; };
 		86652F6E1F0A60AD0000F685 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86652F6C1F0A60AD0000F685 /* Main.storyboard */; };
 		86652F711F0A60AD0000F685 /* Selfiegram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86652F6F1F0A60AD0000F685 /* Selfiegram.xcdatamodeld */; };
 		86652F731F0A60AD0000F685 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86652F721F0A60AD0000F685 /* Assets.xcassets */; };
 		86652F761F0A60AD0000F685 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86652F741F0A60AD0000F685 /* LaunchScreen.storyboard */; };
-		86652F811F0A60AD0000F685 /* SelfiegramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86652F801F0A60AD0000F685 /* SelfiegramTests.swift */; };
-		86652F8C1F0A60AD0000F685 /* SelfiegramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86652F8B1F0A60AD0000F685 /* SelfiegramUITests.swift */; };
+		8669E7C11F900FC1004C38A7 /* NewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8669E7C01F900FC1004C38A7 /* NewPostViewController.swift */; };
+		868F411B1F85953C004AA415 /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868F411A1F85953C004AA415 /* PersistenceService.swift */; };
+		86A02A221F5A519400E0B62C /* ProfilePhotoPostCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A02A211F5A519400E0B62C /* ProfilePhotoPostCollectionViewCell.swift */; };
+		86A311781F0EC7E600BB92FB /* PhotoPostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A311771F0EC7E600BB92FB /* PhotoPostTableViewCell.swift */; };
+		86BB8D6B1F94FA95005FBBE1 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BB8D6A1F94FA95005FBBE1 /* NavigationController.swift */; };
+		86BB8D6D1F94FB75005FBBE1 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BB8D6C1F94FB75005FBBE1 /* NavigationBar.swift */; };
+		86BB8D6F1F950886005FBBE1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BB8D6E1F950886005FBBE1 /* DetailViewController.swift */; };
+		86C0025B1F1843960017F9BA /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C0025A1F1843960017F9BA /* DataManager.swift */; };
+		86C7F2981F0E7F6A00BD89FE /* PhotoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C7F2971F0E7F6A00BD89FE /* PhotoData.swift */; };
+		86C7F29C1F0E873500BD89FE /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C7F29B1F0E873500BD89FE /* FeedTableViewController.swift */; };
+		86CDEA0F1F96A2DC000DC7CB /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86CDEA0D1F96A2DC000DC7CB /* Interface.storyboard */; };
+		86CDEA111F96A2DC000DC7CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86CDEA101F96A2DC000DC7CB /* Assets.xcassets */; };
+		86CDEA181F96A2DC000DC7CB /* Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 86CDEA171F96A2DC000DC7CB /* Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		86CDEA1D1F96A2DC000DC7CB /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CDEA1C1F96A2DC000DC7CB /* InterfaceController.swift */; };
+		86CDEA1F1F96A2DC000DC7CB /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CDEA1E1F96A2DC000DC7CB /* ExtensionDelegate.swift */; };
+		86CDEA211F96A2DC000DC7CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86CDEA201F96A2DC000DC7CB /* Assets.xcassets */; };
+		86CDEA251F96A2DC000DC7CB /* Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 86CDEA0B1F96A2DC000DC7CB /* Watch.app */; };
+		86DFBA281F22DD6A00C5E24E /* OfflineDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DFBA271F22DD6A00C5E24E /* OfflineDataManager.swift */; };
+		86E7F6451F0ADC2600B3D3F1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E7F6441F0ADC2600B3D3F1 /* ProfileViewController.swift */; };
+		86F3F5521F12EB9300C2A7A6 /* UIImageView+Rounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F3F5511F12EB9300C2A7A6 /* UIImageView+Rounded.swift */; };
+		86F442A11F1FA7FA0023B303 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F442A01F1FA7FA0023B303 /* CameraViewController.swift */; };
+		86F883E31F0D8029000D78F7 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F883E21F0D8029000D78F7 /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,23 +59,99 @@
 			remoteGlobalIDString = 86652F641F0A60AD0000F685;
 			remoteInfo = Selfiegram;
 		};
+		86CDEA191F96A2DC000DC7CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86652F5D1F0A60AD0000F685 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86CDEA161F96A2DC000DC7CB;
+			remoteInfo = "Watch Extension";
+		};
+		86CDEA231F96A2DC000DC7CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86652F5D1F0A60AD0000F685 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86CDEA0A1F96A2DC000DC7CB;
+			remoteInfo = Watch;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		86CDEA081F969DBD000DC7CB /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				86CDEA251F96A2DC000DC7CB /* Watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86CDEA291F96A2DC000DC7CB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				86CDEA181F96A2DC000DC7CB /* Watch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		3F3C9CA3EA4D0F207A8FEAE0 /* Pods_Selfiegram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Selfiegram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8600C2A91F16CE48009FD02E /* CommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
+		8600C2AB1F16D79A009FD02E /* TrimWhiteSpace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrimWhiteSpace.swift; sourceTree = "<group>"; };
+		8611E6891F1170B400C478C0 /* Structs.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Structs.playground; sourceTree = "<group>"; };
+		8611E68A1F11791A00C478C0 /* Enum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Enum.playground; sourceTree = "<group>"; };
+		8615BFEB1F43392C0028EA91 /* CameraImageData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraImageData.swift; sourceTree = "<group>"; };
+		861DBE971F917BD40069B145 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		861DBE991F917DAA0069B145 /* SplitVIewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitVIewTableViewController.swift; sourceTree = "<group>"; };
+		86252BD91F8D8239003F9E0A /* FIlterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIlterViewController.swift; sourceTree = "<group>"; };
+		86324CAB1F1EEE650085DDDF /* NetworkDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkDataManager.swift; sourceTree = "<group>"; };
+		8647AA021F0FB40300B9C34A /* Collections.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Collections.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		8647AA031F0FB40300B9C34A /* Extensions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Extensions.playground; sourceTree = "<group>"; };
+		8647AA041F0FB40300B9C34A /* Optionals.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Optionals.playground; sourceTree = "<group>"; };
+		8647AA051F0FB40300B9C34A /* Tuples.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Tuples.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		86652F651F0A60AD0000F685 /* Selfiegram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Selfiegram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86652F681F0A60AD0000F685 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		86652F6A1F0A60AD0000F685 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		86652F6D1F0A60AD0000F685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		86652F701F0A60AD0000F685 /* Selfiegram.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Selfiegram.xcdatamodel; sourceTree = "<group>"; };
 		86652F721F0A60AD0000F685 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86652F751F0A60AD0000F685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86652F771F0A60AD0000F685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86652F7C1F0A60AD0000F685 /* SelfiegramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfiegramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		86652F801F0A60AD0000F685 /* SelfiegramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfiegramTests.swift; sourceTree = "<group>"; };
-		86652F821F0A60AD0000F685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86652F871F0A60AD0000F685 /* SelfiegramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfiegramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		86652F8B1F0A60AD0000F685 /* SelfiegramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfiegramUITests.swift; sourceTree = "<group>"; };
-		86652F8D1F0A60AD0000F685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8669E7C01F900FC1004C38A7 /* NewPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPostViewController.swift; sourceTree = "<group>"; };
+		868F411A1F85953C004AA415 /* PersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
+		868F411C1F85AFAB004AA415 /* CoreImage.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CoreImage.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		86A02A211F5A519400E0B62C /* ProfilePhotoPostCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilePhotoPostCollectionViewCell.swift; sourceTree = "<group>"; };
+		86A311771F0EC7E600BB92FB /* PhotoPostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoPostTableViewCell.swift; sourceTree = "<group>"; };
+		86BB8D6A1F94FA95005FBBE1 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		86BB8D6C1F94FB75005FBBE1 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		86BB8D6E1F950886005FBBE1 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		86C0025A1F1843960017F9BA /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		86C7F2971F0E7F6A00BD89FE /* PhotoData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoData.swift; sourceTree = "<group>"; };
+		86C7F29B1F0E873500BD89FE /* FeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
+		86CDEA0B1F96A2DC000DC7CB /* Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86CDEA0E1F96A2DC000DC7CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		86CDEA101F96A2DC000DC7CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86CDEA121F96A2DC000DC7CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86CDEA171F96A2DC000DC7CB /* Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86CDEA1C1F96A2DC000DC7CB /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		86CDEA1E1F96A2DC000DC7CB /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		86CDEA201F96A2DC000DC7CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86CDEA221F96A2DC000DC7CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86DFBA271F22DD6A00C5E24E /* OfflineDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfflineDataManager.swift; sourceTree = "<group>"; };
+		86E7F6441F0ADC2600B3D3F1 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		86EDD1F81F55B4FB00F927E6 /* HighOrdered.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = HighOrdered.playground; sourceTree = "<group>"; };
+		86F3F5511F12EB9300C2A7A6 /* UIImageView+Rounded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Rounded.swift"; sourceTree = "<group>"; };
+		86F442A01F1FA7FA0023B303 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		86F883E21F0D8029000D78F7 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		90DEF6454F34549F3BF41261 /* Pods-Selfiegram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Selfiegram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Selfiegram/Pods-Selfiegram.debug.xcconfig"; sourceTree = "<group>"; };
+		DC7501F52B3BF06D23D24DDF /* Pods-Selfiegram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Selfiegram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Selfiegram/Pods-Selfiegram.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +159,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C7C66F2E3FF696FBF17B43 /* Pods_Selfiegram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,16 +177,71 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		86CDEA141F96A2DC000DC7CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		86252BD71F8D75C3003F9E0A /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				86F442A01F1FA7FA0023B303 /* CameraViewController.swift */,
+				86252BD91F8D8239003F9E0A /* FIlterViewController.swift */,
+				8669E7C01F900FC1004C38A7 /* NewPostViewController.swift */,
+			);
+			name = Camera;
+			sourceTree = "<group>";
+		};
+		86252BD81F8D7699003F9E0A /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				86E7F6441F0ADC2600B3D3F1 /* ProfileViewController.swift */,
+				86A02A211F5A519400E0B62C /* ProfilePhotoPostCollectionViewCell.swift */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		862E71261F9410CD00B186E4 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				861DBE991F917DAA0069B145 /* SplitVIewTableViewController.swift */,
+				86BB8D6E1F950886005FBBE1 /* DetailViewController.swift */,
+				861DBE971F917BD40069B145 /* Settings.storyboard */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		8647AA011F0FB32700B9C34A /* PG Examples */ = {
+			isa = PBXGroup;
+			children = (
+				868F411C1F85AFAB004AA415 /* CoreImage.playground */,
+				8647AA021F0FB40300B9C34A /* Collections.playground */,
+				8647AA031F0FB40300B9C34A /* Extensions.playground */,
+				8647AA041F0FB40300B9C34A /* Optionals.playground */,
+				8647AA051F0FB40300B9C34A /* Tuples.playground */,
+				8611E6891F1170B400C478C0 /* Structs.playground */,
+				8611E68A1F11791A00C478C0 /* Enum.playground */,
+				86EDD1F81F55B4FB00F927E6 /* HighOrdered.playground */,
+			);
+			name = "PG Examples";
+			path = Selfiegram;
+			sourceTree = "<group>";
+		};
 		86652F5C1F0A60AD0000F685 = {
 			isa = PBXGroup;
 			children = (
 				86652F671F0A60AD0000F685 /* Selfiegram */,
-				86652F7F1F0A60AD0000F685 /* SelfiegramTests */,
-				86652F8A1F0A60AD0000F685 /* SelfiegramUITests */,
+				8647AA011F0FB32700B9C34A /* PG Examples */,
+				86CDEA0C1F96A2DC000DC7CB /* Watch */,
+				86CDEA1B1F96A2DC000DC7CB /* Watch Extension */,
 				86652F661F0A60AD0000F685 /* Products */,
+				960F337F5E196365E0C0F8CC /* Pods */,
+				C785F192435ADCF420F4444F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +251,8 @@
 				86652F651F0A60AD0000F685 /* Selfiegram.app */,
 				86652F7C1F0A60AD0000F685 /* SelfiegramTests.xctest */,
 				86652F871F0A60AD0000F685 /* SelfiegramUITests.xctest */,
+				86CDEA0B1F96A2DC000DC7CB /* Watch.app */,
+				86CDEA171F96A2DC000DC7CB /* Watch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,33 +260,101 @@
 		86652F671F0A60AD0000F685 /* Selfiegram */ = {
 			isa = PBXGroup;
 			children = (
+				86F3F5501F12EAE000C2A7A6 /* Utils */,
+				862E71261F9410CD00B186E4 /* Settings */,
+				86C002591F18436C0017F9BA /* Managers */,
+				86C7F2961F0E7F0400BD89FE /* Model */,
+				86A311791F0EC7F900BB92FB /* Feed */,
+				86252BD71F8D75C3003F9E0A /* Camera */,
+				86252BD81F8D7699003F9E0A /* Profile */,
+				86F883E21F0D8029000D78F7 /* TabBarController.swift */,
+				86BB8D6A1F94FA95005FBBE1 /* NavigationController.swift */,
+				86BB8D6C1F94FB75005FBBE1 /* NavigationBar.swift */,
 				86652F681F0A60AD0000F685 /* AppDelegate.swift */,
-				86652F6A1F0A60AD0000F685 /* ViewController.swift */,
 				86652F6C1F0A60AD0000F685 /* Main.storyboard */,
-				86652F721F0A60AD0000F685 /* Assets.xcassets */,
 				86652F741F0A60AD0000F685 /* LaunchScreen.storyboard */,
 				86652F771F0A60AD0000F685 /* Info.plist */,
 				86652F6F1F0A60AD0000F685 /* Selfiegram.xcdatamodeld */,
+				86652F721F0A60AD0000F685 /* Assets.xcassets */,
 			);
 			path = Selfiegram;
 			sourceTree = "<group>";
 		};
-		86652F7F1F0A60AD0000F685 /* SelfiegramTests */ = {
+		86A311791F0EC7F900BB92FB /* Feed */ = {
 			isa = PBXGroup;
 			children = (
-				86652F801F0A60AD0000F685 /* SelfiegramTests.swift */,
-				86652F821F0A60AD0000F685 /* Info.plist */,
+				86C7F29B1F0E873500BD89FE /* FeedTableViewController.swift */,
+				86A311771F0EC7E600BB92FB /* PhotoPostTableViewCell.swift */,
+				8600C2A91F16CE48009FD02E /* CommentViewController.swift */,
 			);
-			path = SelfiegramTests;
+			name = Feed;
 			sourceTree = "<group>";
 		};
-		86652F8A1F0A60AD0000F685 /* SelfiegramUITests */ = {
+		86C002591F18436C0017F9BA /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				86652F8B1F0A60AD0000F685 /* SelfiegramUITests.swift */,
-				86652F8D1F0A60AD0000F685 /* Info.plist */,
+				86C0025A1F1843960017F9BA /* DataManager.swift */,
+				86324CAB1F1EEE650085DDDF /* NetworkDataManager.swift */,
+				86DFBA271F22DD6A00C5E24E /* OfflineDataManager.swift */,
+				868F411A1F85953C004AA415 /* PersistenceService.swift */,
 			);
-			path = SelfiegramUITests;
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		86C7F2961F0E7F0400BD89FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				86C7F2971F0E7F6A00BD89FE /* PhotoData.swift */,
+				8615BFEB1F43392C0028EA91 /* CameraImageData.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		86CDEA0C1F96A2DC000DC7CB /* Watch */ = {
+			isa = PBXGroup;
+			children = (
+				86CDEA0D1F96A2DC000DC7CB /* Interface.storyboard */,
+				86CDEA101F96A2DC000DC7CB /* Assets.xcassets */,
+				86CDEA121F96A2DC000DC7CB /* Info.plist */,
+			);
+			path = Watch;
+			sourceTree = "<group>";
+		};
+		86CDEA1B1F96A2DC000DC7CB /* Watch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				86CDEA1C1F96A2DC000DC7CB /* InterfaceController.swift */,
+				86CDEA1E1F96A2DC000DC7CB /* ExtensionDelegate.swift */,
+				86CDEA201F96A2DC000DC7CB /* Assets.xcassets */,
+				86CDEA221F96A2DC000DC7CB /* Info.plist */,
+			);
+			path = "Watch Extension";
+			sourceTree = "<group>";
+		};
+		86F3F5501F12EAE000C2A7A6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				86F3F5511F12EB9300C2A7A6 /* UIImageView+Rounded.swift */,
+				8600C2AB1F16D79A009FD02E /* TrimWhiteSpace.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		960F337F5E196365E0C0F8CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90DEF6454F34549F3BF41261 /* Pods-Selfiegram.debug.xcconfig */,
+				DC7501F52B3BF06D23D24DDF /* Pods-Selfiegram.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C785F192435ADCF420F4444F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F3C9CA3EA4D0F207A8FEAE0 /* Pods_Selfiegram.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,13 +364,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86652F901F0A60AD0000F685 /* Build configuration list for PBXNativeTarget "Selfiegram" */;
 			buildPhases = (
+				349ABACAD41EF5C84EA8200B /* [CP] Check Pods Manifest.lock */,
 				86652F611F0A60AD0000F685 /* Sources */,
 				86652F621F0A60AD0000F685 /* Frameworks */,
 				86652F631F0A60AD0000F685 /* Resources */,
+				55891F675EAA4886C38765E1 /* [CP] Embed Pods Frameworks */,
+				A6D238452B2794314F189CEB /* [CP] Copy Pods Resources */,
+				86CDEA081F969DBD000DC7CB /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				86CDEA241F96A2DC000DC7CB /* PBXTargetDependency */,
 			);
 			name = Selfiegram;
 			productName = Selfiegram;
@@ -184,18 +418,53 @@
 			productReference = 86652F871F0A60AD0000F685 /* SelfiegramUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		86CDEA0A1F96A2DC000DC7CB /* Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86CDEA2A1F96A2DC000DC7CB /* Build configuration list for PBXNativeTarget "Watch" */;
+			buildPhases = (
+				86CDEA091F96A2DC000DC7CB /* Resources */,
+				86CDEA291F96A2DC000DC7CB /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86CDEA1A1F96A2DC000DC7CB /* PBXTargetDependency */,
+			);
+			name = Watch;
+			productName = Watch;
+			productReference = 86CDEA0B1F96A2DC000DC7CB /* Watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		86CDEA161F96A2DC000DC7CB /* Watch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86CDEA261F96A2DC000DC7CB /* Build configuration list for PBXNativeTarget "Watch Extension" */;
+			buildPhases = (
+				86CDEA131F96A2DC000DC7CB /* Sources */,
+				86CDEA141F96A2DC000DC7CB /* Frameworks */,
+				86CDEA151F96A2DC000DC7CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Watch Extension";
+			productName = "Watch Extension";
+			productReference = 86CDEA171F96A2DC000DC7CB /* Watch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		86652F5D1F0A60AD0000F685 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = tuchka;
 				TargetAttributes = {
 					86652F641F0A60AD0000F685 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = F74DACVA34;
 						ProvisioningStyle = Automatic;
 					};
 					86652F7B1F0A60AD0000F685 = {
@@ -207,6 +476,16 @@
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 86652F641F0A60AD0000F685;
+					};
+					86CDEA0A1F96A2DC000DC7CB = {
+						CreatedOnToolsVersion = 9.0.1;
+						DevelopmentTeam = F74DACVA34;
+						ProvisioningStyle = Automatic;
+					};
+					86CDEA161F96A2DC000DC7CB = {
+						CreatedOnToolsVersion = 9.0.1;
+						DevelopmentTeam = F74DACVA34;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -226,6 +505,8 @@
 				86652F641F0A60AD0000F685 /* Selfiegram */,
 				86652F7B1F0A60AD0000F685 /* SelfiegramTests */,
 				86652F861F0A60AD0000F685 /* SelfiegramUITests */,
+				86CDEA0A1F96A2DC000DC7CB /* Watch */,
+				86CDEA161F96A2DC000DC7CB /* Watch Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -237,6 +518,7 @@
 			files = (
 				86652F761F0A60AD0000F685 /* LaunchScreen.storyboard in Resources */,
 				86652F731F0A60AD0000F685 /* Assets.xcassets in Resources */,
+				861DBE981F917BD40069B145 /* Settings.storyboard in Resources */,
 				86652F6E1F0A60AD0000F685 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,7 +537,80 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		86CDEA091F96A2DC000DC7CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86CDEA111F96A2DC000DC7CB /* Assets.xcassets in Resources */,
+				86CDEA0F1F96A2DC000DC7CB /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86CDEA151F96A2DC000DC7CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86CDEA211F96A2DC000DC7CB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		349ABACAD41EF5C84EA8200B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Selfiegram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55891F675EAA4886C38765E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Selfiegram/Pods-Selfiegram-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Selfiegram/Pods-Selfiegram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6D238452B2794314F189CEB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Selfiegram/Pods-Selfiegram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		86652F611F0A60AD0000F685 /* Sources */ = {
@@ -263,8 +618,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				86652F711F0A60AD0000F685 /* Selfiegram.xcdatamodeld in Sources */,
-				86652F6B1F0A60AD0000F685 /* ViewController.swift in Sources */,
+				8615BFEC1F43392C0028EA91 /* CameraImageData.swift in Sources */,
+				86BB8D6F1F950886005FBBE1 /* DetailViewController.swift in Sources */,
+				86252BDA1F8D8239003F9E0A /* FIlterViewController.swift in Sources */,
+				86C7F2981F0E7F6A00BD89FE /* PhotoData.swift in Sources */,
+				86E7F6451F0ADC2600B3D3F1 /* ProfileViewController.swift in Sources */,
+				86BB8D6D1F94FB75005FBBE1 /* NavigationBar.swift in Sources */,
+				86C7F29C1F0E873500BD89FE /* FeedTableViewController.swift in Sources */,
+				86F442A11F1FA7FA0023B303 /* CameraViewController.swift in Sources */,
+				86F3F5521F12EB9300C2A7A6 /* UIImageView+Rounded.swift in Sources */,
+				86F883E31F0D8029000D78F7 /* TabBarController.swift in Sources */,
+				8600C2AC1F16D79A009FD02E /* TrimWhiteSpace.swift in Sources */,
 				86652F691F0A60AD0000F685 /* AppDelegate.swift in Sources */,
+				86324CAC1F1EEE650085DDDF /* NetworkDataManager.swift in Sources */,
+				86A02A221F5A519400E0B62C /* ProfilePhotoPostCollectionViewCell.swift in Sources */,
+				86C0025B1F1843960017F9BA /* DataManager.swift in Sources */,
+				868F411B1F85953C004AA415 /* PersistenceService.swift in Sources */,
+				86A311781F0EC7E600BB92FB /* PhotoPostTableViewCell.swift in Sources */,
+				8600C2AA1F16CE48009FD02E /* CommentViewController.swift in Sources */,
+				8669E7C11F900FC1004C38A7 /* NewPostViewController.swift in Sources */,
+				86DFBA281F22DD6A00C5E24E /* OfflineDataManager.swift in Sources */,
+				86BB8D6B1F94FA95005FBBE1 /* NavigationController.swift in Sources */,
+				861DBE9A1F917DAA0069B145 /* SplitVIewTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +647,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86652F811F0A60AD0000F685 /* SelfiegramTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +654,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86652F8C1F0A60AD0000F685 /* SelfiegramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86CDEA131F96A2DC000DC7CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86CDEA1F1F96A2DC000DC7CB /* ExtensionDelegate.swift in Sources */,
+				86CDEA1D1F96A2DC000DC7CB /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +678,16 @@
 			isa = PBXTargetDependency;
 			target = 86652F641F0A60AD0000F685 /* Selfiegram */;
 			targetProxy = 86652F881F0A60AD0000F685 /* PBXContainerItemProxy */;
+		};
+		86CDEA1A1F96A2DC000DC7CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86CDEA161F96A2DC000DC7CB /* Watch Extension */;
+			targetProxy = 86CDEA191F96A2DC000DC7CB /* PBXContainerItemProxy */;
+		};
+		86CDEA241F96A2DC000DC7CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86CDEA0A1F96A2DC000DC7CB /* Watch */;
+			targetProxy = 86CDEA231F96A2DC000DC7CB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -314,6 +706,14 @@
 				86652F751F0A60AD0000F685 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		86CDEA0D1F96A2DC000DC7CB /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86CDEA0E1F96A2DC000DC7CB /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -416,24 +816,34 @@
 		};
 		86652F911F0A60AD0000F685 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90DEF6454F34549F3BF41261 /* Pods-Selfiegram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = F74DACVA34;
 				INFOPLIST_FILE = Selfiegram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tuchka.Selfiegram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		86652F921F0A60AD0000F685 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC7501F52B3BF06D23D24DDF /* Pods-Selfiegram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = F74DACVA34;
 				INFOPLIST_FILE = Selfiegram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tuchka.Selfiegram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -492,6 +902,116 @@
 			};
 			name = Release;
 		};
+		86CDEA271F96A2DC000DC7CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F74DACVA34;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuchka.Selfiegram.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		86CDEA281F96A2DC000DC7CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F74DACVA34;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuchka.Selfiegram.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		86CDEA2B1F96A2DC000DC7CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F74DACVA34;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				IBSC_MODULE = Watch_Extension;
+				INFOPLIST_FILE = Watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuchka.Selfiegram.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		86CDEA2C1F96A2DC000DC7CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F74DACVA34;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				IBSC_MODULE = Watch_Extension;
+				INFOPLIST_FILE = Watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuchka.Selfiegram.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -511,6 +1031,7 @@
 				86652F921F0A60AD0000F685 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86652F931F0A60AD0000F685 /* Build configuration list for PBXNativeTarget "SelfiegramTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +1040,7 @@
 				86652F951F0A60AD0000F685 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86652F961F0A60AD0000F685 /* Build configuration list for PBXNativeTarget "SelfiegramUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +1049,25 @@
 				86652F981F0A60AD0000F685 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86CDEA261F96A2DC000DC7CB /* Build configuration list for PBXNativeTarget "Watch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86CDEA271F96A2DC000DC7CB /* Debug */,
+				86CDEA281F96A2DC000DC7CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86CDEA2A1F96A2DC000DC7CB /* Build configuration list for PBXNativeTarget "Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86CDEA2B1F96A2DC000DC7CB /* Debug */,
+				86CDEA2C1F96A2DC000DC7CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

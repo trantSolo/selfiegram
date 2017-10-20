@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="13196" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="13051"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Watch" customModuleProvider="target">
+                    <items>
+                        <imageView height="107" alignment="left" contentMode="scaleAspectFit" id="3U1-Nw-4Ru"/>
+                        <button width="1" height="27" alignment="left" title="LIKE" id="HiV-mn-jZy">
+                            <connections>
+                                <action selector="likeWasTapped" destination="AgC-eL-Hgc" id="ViL-M0-LUI"/>
+                            </connections>
+                        </button>
+                        <button width="1" height="27" alignment="left" title="NEXT" id="0EI-RC-yrE">
+                            <connections>
+                                <action selector="nextWasTapped" destination="AgC-eL-Hgc" id="4gG-BM-0z8"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="imageView" destination="3U1-Nw-4Ru" id="8kl-Py-gZQ"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="78" y="45"/>
+        </scene>
+    </scenes>
+</document>
