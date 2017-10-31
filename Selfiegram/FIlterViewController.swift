@@ -30,8 +30,12 @@ class FIlterViewController: UIViewController {
  
     @IBAction func saveToLibButton(_ sender: UIButton)
     {
-        UIImageWriteToSavedPhotosAlbum(segueImage!, nil, nil, nil)
-        
+        // Save to lib
+        let context = CIContext(options: nil)
+        if let cgimg = context.createCGImage((filter?.outputImage)!, from: (filter?.outputImage?.extent)!) {
+            let processedImage = UIImage(cgImage: cgimg)
+            UIImageWriteToSavedPhotosAlbum(processedImage, nil, nil, nil)
+        }
         let alert = UIAlertController(title: "Photo was saved",
                                      message: "Now you can post this!",
                                      preferredStyle: .alert)

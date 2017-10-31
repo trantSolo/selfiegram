@@ -8,14 +8,6 @@
 
 import UIKit
 
-// depricated code
-/*protocol FeedDataManager {
-    func getFeed()->AnyObject
-}
-protocol ProfileDataManager {
-    func getProfile()->AnyObject
-    func loadProfile()->AnyObject
-}*/
 
 class DataManager {
     
@@ -29,15 +21,6 @@ class DataManager {
         init() {
     
     }
-    
-    
-    /*func takeNewPost() -> PhotoData
-    {
-        
-        itemPhotoData = PhotoData(userName: testString, description: testString, photoImage: photoArray.last!)
-        return itemPhotoData!
-        
-    }*/
     
     func getPhotoData() -> PhotoData
     {

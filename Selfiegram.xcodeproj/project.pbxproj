@@ -37,7 +37,6 @@
 		86CDEA1F1F96A2DC000DC7CB /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CDEA1E1F96A2DC000DC7CB /* ExtensionDelegate.swift */; };
 		86CDEA211F96A2DC000DC7CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86CDEA201F96A2DC000DC7CB /* Assets.xcassets */; };
 		86CDEA251F96A2DC000DC7CB /* Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 86CDEA0B1F96A2DC000DC7CB /* Watch.app */; };
-		86DFBA281F22DD6A00C5E24E /* OfflineDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DFBA271F22DD6A00C5E24E /* OfflineDataManager.swift */; };
 		86E7F6451F0ADC2600B3D3F1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E7F6441F0ADC2600B3D3F1 /* ProfileViewController.swift */; };
 		86F3F5521F12EB9300C2A7A6 /* UIImageView+Rounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F3F5511F12EB9300C2A7A6 /* UIImageView+Rounded.swift */; };
 		86F442A11F1FA7FA0023B303 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F442A01F1FA7FA0023B303 /* CameraViewController.swift */; };
@@ -144,7 +143,6 @@
 		86CDEA1E1F96A2DC000DC7CB /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		86CDEA201F96A2DC000DC7CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86CDEA221F96A2DC000DC7CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		86DFBA271F22DD6A00C5E24E /* OfflineDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfflineDataManager.swift; sourceTree = "<group>"; };
 		86E7F6441F0ADC2600B3D3F1 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		86EDD1F81F55B4FB00F927E6 /* HighOrdered.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = HighOrdered.playground; sourceTree = "<group>"; };
 		86F3F5511F12EB9300C2A7A6 /* UIImageView+Rounded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Rounded.swift"; sourceTree = "<group>"; };
@@ -295,7 +293,6 @@
 			children = (
 				86C0025A1F1843960017F9BA /* DataManager.swift */,
 				86324CAB1F1EEE650085DDDF /* NetworkDataManager.swift */,
-				86DFBA271F22DD6A00C5E24E /* OfflineDataManager.swift */,
 				868F411A1F85953C004AA415 /* PersistenceService.swift */,
 			);
 			name = Managers;
@@ -637,7 +634,6 @@
 				86A311781F0EC7E600BB92FB /* PhotoPostTableViewCell.swift in Sources */,
 				8600C2AA1F16CE48009FD02E /* CommentViewController.swift in Sources */,
 				8669E7C11F900FC1004C38A7 /* NewPostViewController.swift in Sources */,
-				86DFBA281F22DD6A00C5E24E /* OfflineDataManager.swift in Sources */,
 				86BB8D6B1F94FA95005FBBE1 /* NavigationController.swift in Sources */,
 				861DBE9A1F917DAA0069B145 /* SplitVIewTableViewController.swift in Sources */,
 			);
